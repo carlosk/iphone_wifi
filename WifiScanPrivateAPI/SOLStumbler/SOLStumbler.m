@@ -15,8 +15,12 @@
 	
 	networks = [[NSMutableDictionary alloc] init];
     networkDicts = [NSMutableArray array];
-    libHandle = dlopen("System/Library/SystemConfiguration/IPConfiguration.bundle/IPConfiguration", RTLD_LAZY);
+    //iOS5+
+    libHandle = dlopen(
+                       "System/Library/SystemConfiguration/IPConfiguration.bundle/IPConfiguration",
+                       RTLD_LAZY);
 
+    //iOS4
 //	libHandle = dlopen("/System/Library/SystemConfiguration/WiFiManager.bundle/WiFiManager", RTLD_LAZY);
 	char *error;
 	if (libHandle == NULL && (error = dlerror()) != NULL)  {
@@ -83,22 +87,6 @@
 
 - (int)associateToNetwork:(NSString *)SSID withPassword:(NSString *)password
 {
-//    NSDictionary *parameters = [[NSDictionary alloc] init];
-//    NSArray *scan_networks; //is a CFArrayRef of CFDictionaryRef(s) containing key/value data on each discovered network
-//    
-//    apple80211Scan(airportHandle, &scan_networks, parameters);
-//    
-//    for (int i = 0; i < [scan_networks count]; i++) {
-//        [networks setObject:[scan_networks objectAtIndex: i] forKey:[[scan_networks objectAtIndex: i] objectForKey:@"BSSID"]];
-//    }
-//    
-//    
-//    for (NSDictionary *network in scan_networks) {
-//        if ([SSID isEqualToString:[network objectForKey:@"SSID_STR"]]) {
-//            
-//        }
-//    }
-    
     for (id key in networks) {
         if ([[[networks objectForKey:key] objectForKey:@"SSID_STR"] isEqualToString:SSID]) {
             // For connecting to WPA network, replace NULL below with a string containing the key
