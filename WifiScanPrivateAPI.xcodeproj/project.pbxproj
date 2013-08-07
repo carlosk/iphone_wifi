@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85F54CBC17B1DAE5004BB2BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F54CBB17B1DAE5004BB2BF /* UIKit.framework */; };
+		85F54CBE17B1DAE5004BB2BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F54CBD17B1DAE5004BB2BF /* Foundation.framework */; };
+		85F54CC017B1DAE5004BB2BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F54CBF17B1DAE5004BB2BF /* CoreGraphics.framework */; };
+		85F54CC617B1DAE5004BB2BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CC417B1DAE5004BB2BF /* InfoPlist.strings */; };
+		85F54CC817B1DAE5004BB2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54CC717B1DAE5004BB2BF /* main.m */; };
+		85F54CCC17B1DAE5004BB2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54CCB17B1DAE5004BB2BF /* AppDelegate.m */; };
+		85F54CCE17B1DAE5004BB2BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CCD17B1DAE5004BB2BF /* Default.png */; };
+		85F54CD017B1DAE5004BB2BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CCF17B1DAE5004BB2BF /* Default@2x.png */; };
+		85F54CD217B1DAE5004BB2BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CD117B1DAE5004BB2BF /* Default-568h@2x.png */; };
+		85F54CD517B1DAE5004BB2BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54CD417B1DAE5004BB2BF /* ViewController.m */; };
+		85F54CD817B1DAE5004BB2BF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F54CD617B1DAE5004BB2BF /* ViewController.xib */; };
+		85F54CE117B1DAEF004BB2BF /* SOLStumbler.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F54CE017B1DAEF004BB2BF /* SOLStumbler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85F54CB817B1DAE5004BB2BF /* WifiScanPrivateAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiScanPrivateAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F54CBB17B1DAE5004BB2BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85F54CBD17B1DAE5004BB2BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85F54CBF17B1DAE5004BB2BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85F54CC317B1DAE5004BB2BF /* WifiScanPrivateAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WifiScanPrivateAPI-Info.plist"; sourceTree = "<group>"; };
+		85F54CC517B1DAE5004BB2BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85F54CC717B1DAE5004BB2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85F54CC917B1DAE5004BB2BF /* WifiScanPrivateAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WifiScanPrivateAPI-Prefix.pch"; sourceTree = "<group>"; };
+		85F54CCA17B1DAE5004BB2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85F54CCB17B1DAE5004BB2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85F54CCD17B1DAE5004BB2BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85F54CCF17B1DAE5004BB2BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		85F54CD117B1DAE5004BB2BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85F54CD317B1DAE5004BB2BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85F54CD417B1DAE5004BB2BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85F54CD717B1DAE5004BB2BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		85F54CDF17B1DAEF004BB2BF /* SOLStumbler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOLStumbler.h; sourceTree = "<group>"; };
+		85F54CE017B1DAEF004BB2BF /* SOLStumbler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOLStumbler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85F54CB517B1DAE5004BB2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F54CBC17B1DAE5004BB2BF /* UIKit.framework in Frameworks */,
+				85F54CBE17B1DAE5004BB2BF /* Foundation.framework in Frameworks */,
+				85F54CC017B1DAE5004BB2BF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85F54CAF17B1DAE5004BB2BF = {
+			isa = PBXGroup;
+			children = (
+				85F54CC117B1DAE5004BB2BF /* WifiScanPrivateAPI */,
+				85F54CBA17B1DAE5004BB2BF /* Frameworks */,
+				85F54CB917B1DAE5004BB2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F54CB917B1DAE5004BB2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85F54CB817B1DAE5004BB2BF /* WifiScanPrivateAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85F54CBA17B1DAE5004BB2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85F54CBB17B1DAE5004BB2BF /* UIKit.framework */,
+				85F54CBD17B1DAE5004BB2BF /* Foundation.framework */,
+				85F54CBF17B1DAE5004BB2BF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85F54CC117B1DAE5004BB2BF /* WifiScanPrivateAPI */ = {
+			isa = PBXGroup;
+			children = (
+				85F54CDE17B1DAEF004BB2BF /* SOLStumbler */,
+				85F54CCA17B1DAE5004BB2BF /* AppDelegate.h */,
+				85F54CCB17B1DAE5004BB2BF /* AppDelegate.m */,
+				85F54CD317B1DAE5004BB2BF /* ViewController.h */,
+				85F54CD417B1DAE5004BB2BF /* ViewController.m */,
+				85F54CD617B1DAE5004BB2BF /* ViewController.xib */,
+				85F54CC217B1DAE5004BB2BF /* Supporting Files */,
+			);
+			path = WifiScanPrivateAPI;
+			sourceTree = "<group>";
+		};
+		85F54CC217B1DAE5004BB2BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85F54CC317B1DAE5004BB2BF /* WifiScanPrivateAPI-Info.plist */,
+				85F54CC417B1DAE5004BB2BF /* InfoPlist.strings */,
+				85F54CC717B1DAE5004BB2BF /* main.m */,
+				85F54CC917B1DAE5004BB2BF /* WifiScanPrivateAPI-Prefix.pch */,
+				85F54CCD17B1DAE5004BB2BF /* Default.png */,
+				85F54CCF17B1DAE5004BB2BF /* Default@2x.png */,
+				85F54CD117B1DAE5004BB2BF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85F54CDE17B1DAEF004BB2BF /* SOLStumbler */ = {
+			isa = PBXGroup;
+			children = (
+				85F54CDF17B1DAEF004BB2BF /* SOLStumbler.h */,
+				85F54CE017B1DAEF004BB2BF /* SOLStumbler.m */,
+			);
+			path = SOLStumbler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85F54CB717B1DAE5004BB2BF /* WifiScanPrivateAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F54CDB17B1DAE5004BB2BF /* Build configuration list for PBXNativeTarget "WifiScanPrivateAPI" */;
+			buildPhases = (
+				85F54CB417B1DAE5004BB2BF /* Sources */,
+				85F54CB517B1DAE5004BB2BF /* Frameworks */,
+				85F54CB617B1DAE5004BB2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiScanPrivateAPI;
+			productName = WifiScanPrivateAPI;
+			productReference = 85F54CB817B1DAE5004BB2BF /* WifiScanPrivateAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F54CB017B1DAE5004BB2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = carlosk;
+			};
+			buildConfigurationList = 85F54CB317B1DAE5004BB2BF /* Build configuration list for PBXProject "WifiScanPrivateAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85F54CAF17B1DAE5004BB2BF;
+			productRefGroup = 85F54CB917B1DAE5004BB2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85F54CB717B1DAE5004BB2BF /* WifiScanPrivateAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85F54CB617B1DAE5004BB2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F54CC617B1DAE5004BB2BF /* InfoPlist.strings in Resources */,
+				85F54CCE17B1DAE5004BB2BF /* Default.png in Resources */,
+				85F54CD017B1DAE5004BB2BF /* Default@2x.png in Resources */,
+				85F54CD217B1DAE5004BB2BF /* Default-568h@2x.png in Resources */,
+				85F54CD817B1DAE5004BB2BF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85F54CB417B1DAE5004BB2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F54CC817B1DAE5004BB2BF /* main.m in Sources */,
+				85F54CCC17B1DAE5004BB2BF /* AppDelegate.m in Sources */,
+				85F54CD517B1DAE5004BB2BF /* ViewController.m in Sources */,
+				85F54CE117B1DAEF004BB2BF /* SOLStumbler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85F54CC417B1DAE5004BB2BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85F54CC517B1DAE5004BB2BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85F54CD617B1DAE5004BB2BF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85F54CD717B1DAE5004BB2BF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85F54CD917B1DAE5004BB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85F54CDA17B1DAE5004BB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85F54CDC17B1DAE5004BB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiScanPrivateAPI/WifiScanPrivateAPI-Prefix.pch";
+				INFOPLIST_FILE = "WifiScanPrivateAPI/WifiScanPrivateAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85F54CDD17B1DAE5004BB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WifiScanPrivateAPI/WifiScanPrivateAPI-Prefix.pch";
+				INFOPLIST_FILE = "WifiScanPrivateAPI/WifiScanPrivateAPI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85F54CB317B1DAE5004BB2BF /* Build configuration list for PBXProject "WifiScanPrivateAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F54CD917B1DAE5004BB2BF /* Debug */,
+				85F54CDA17B1DAE5004BB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F54CDB17B1DAE5004BB2BF /* Build configuration list for PBXNativeTarget "WifiScanPrivateAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F54CDC17B1DAE5004BB2BF /* Debug */,
+				85F54CDD17B1DAE5004BB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F54CB017B1DAE5004BB2BF /* Project object */;
+}
